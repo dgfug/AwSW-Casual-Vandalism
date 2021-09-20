@@ -5,7 +5,7 @@ if HasBrick = True:
     m "I suudenly remember about the brick i'd gotten earlier"
 menu:
      "[Do nothing.]":
-      m "Test, ignore this."
+               m "Test, ignore this."
 
      "[Smash the window.]":
                $ HasBrick = False
@@ -32,11 +32,11 @@ menu:
                with easeinleft
                Br "Where's Reza?"
                Br "Also, [Player name], what are you doing here?"
-               c "Reza@s not here."
+               c "Reza's not here."
                Br "But we got a call about a human who broke a window, and im assuming its that one."
                m "He guestured towards the building with the window I had smashed."
                m "I only then noticed a dragon on the other side who had a distraught look on their face."
-               Br "But if Reza@s not here then who...?"
+               Br "But if Reza's not here, then who...?"
                m "I... Uhh, I smashed the window..."
                Sb dissaproval b "Wait... Really?"
                Br "But why would you do that?"
@@ -57,7 +57,7 @@ menu:
 
                hide Sebastion with easeoutright
 
-               m "Bryce and Sebastion left the two of standing there, and I felt like I was a kid who'd got caught doing something they shouldnt have"
+               m "Bryce and Sebastion left the two of standing there, and I felt like I was a child who'd got caught doing something they shouldnt have."
                Lo sad "Uh... Let's just forget about that and get back to what we were doing..."
                c "Yeah..."
 
