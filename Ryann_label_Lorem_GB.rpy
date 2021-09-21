@@ -13,4 +13,4 @@ menu:
                 "I decided to ignore it and continue walking"
                 $ HasBrick = False
 
-jump Ryann_Lorem_GetBrick_end
+jump Ryann_Lorem_GB_end
