@@ -26,8 +26,8 @@ class AWSWMod(Mod):
         .link_from("Ryann_Lorem_NormalWindow")
         
        ml.find_label("lorem3")
-       .search_say("Did you find anything?")
-       .link_from("Ryann_Lorem_LoremBrick")
+        .search_say("Did you find anything?")
+        .link_from("Ryann_Lorem_LoremBrick")
         
 
     def mod_complete(self):
