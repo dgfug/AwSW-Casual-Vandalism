@@ -28,9 +28,7 @@ class AWSWMod(Mod):
         ml.find_label("lorem3")
         .search_say("Did you find anything?")
         .link_from("Ryann_Lorem_LoremBrick")
-
-    def mod_load(self):
-        pass
+        
 
     def mod_complete(self):
         pass
