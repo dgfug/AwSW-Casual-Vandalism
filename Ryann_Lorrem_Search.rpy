@@ -5,7 +5,8 @@ if HasBrick = True:
     m "I suudenly remember about the brick i'd gotten earlier"
 menu:
      "[Do nothing.]":
-               m "Test, ignore this."
+               m "Then I realised smashing a window with a brick wouldnt be my smartest idea."
+               jump Ryann_Lorem_NormalWindow_end
 
      "[Smash the window.]":
                $ HasBrick = False
