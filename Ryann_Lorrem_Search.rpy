@@ -6,7 +6,7 @@ if HasBrick = True:
 menu:
      "[Do nothing.]":
                m "Then I realised smashing a window with a brick wouldnt be my smartest idea."
-               jump Ryann_Lorem_NormalWindow_end
+               jump Ryann_Lorem_NormalWindow
 
      "[Smash the window.]":
                $ HasBrick = False
