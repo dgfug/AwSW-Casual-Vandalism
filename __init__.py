@@ -16,7 +16,8 @@ class AWSWMod(Mod):
         .link_from("Ryann_Lorem_GetBrick_end")
 
        ml.find_label("lorem3") \
-        .search_if("Look inside the windows." if lorem3windows == False").branch_else("As Lorem flew up to the windowsill with a few flaps of his wings, I turned to the right to look inside the windows of the administrative building.") \
+        .search_if("Look inside the windows." if lorem3windows == False).branch_else() \
+        .search_say("As Lorem flew up to the windowsill with a few flaps of his wings, I turned to the right to look inside the windows of the administrative building") \
         .hook_to("Ryann_Lorem_Search") \
         .search_say("Nothing.") \
         .link_from("Ryann_Lorem_Search_end")
