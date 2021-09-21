@@ -28,6 +28,7 @@ class AWSWMod(Mod):
         .link_from("Ryann_Lorem_NormalWindow")
         
        ml.find_label("lorem3") \
+        .search_menu("Look inside the windows.").branch() \
         .search_say("Did you find anything?") \
         .link_from("Ryann_Lorem_LoremBrick")
         
