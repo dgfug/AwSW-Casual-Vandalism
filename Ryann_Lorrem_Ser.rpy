@@ -63,7 +63,7 @@ menu:
                c "Yeah..."
 
 
-jump Ryann_Lorem_Search_end
+jump Ryann_Lorem_Ser_end
 
 else m "I looked for a few more seconds before remembering what I was doing."
 jump Ryann_Lorem_NormalWindow_end
