@@ -15,13 +15,11 @@ class AWSWMod(Mod):
         .search_say("Here we are. The X on the map is right between these two buildings, so it must be around here somewhere.") \
         .link_from("Ryann_Lorem_GetBrick_end")
 
-       $ If HasBrick = True:
        ml.find_label("lorem3") \
-        .search_say("As Lorem flew up to the windowsill with a few flaps of his wings, I turned to the right to look inside the windows of the administrative building") \
+        .search_say("As Lorem flew up to the windowsill with a few flaps of his wings, I turned to the right to look inside the windows of the administrative building.") \
         .hook_to("Ryann_Lorem_Search") \
         .search_say("Nothing.") \
         .link_from("Ryann_Lorem_Search_end")
-       else: pass
         
        ml.find_label("lorem3") \
         .search_say("The curtains were closed, but through a small gap, I could barely see inside.") \
