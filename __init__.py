@@ -23,6 +23,7 @@ class AWSWMod(Mod):
         .link_from("Ryann_Lorem_Search_end")
         
        ml.find_label("lorem3") \
+        .search_if("Look inside the windows.").branch_else() \
         .search_say("The curtains were closed, but through a small gap, I could barely see inside.") \
         .link_from("Ryann_Lorem_NormalWindow")
         
