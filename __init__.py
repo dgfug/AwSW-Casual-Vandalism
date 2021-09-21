@@ -25,9 +25,9 @@ class AWSWMod(Mod):
         .search_say("The curtains were closed, but through a small gap, I could barely see inside.") \
         .link_from("Ryann_Lorem_NormalWindow")
         
-        ml.find_label("lorem3")
-        .search_say("Did you find anything?")
-        .link_from("Ryann_Lorem_LoremBrick")
+       ml.find_label("lorem3")
+       .search_say("Did you find anything?")
+       .link_from("Ryann_Lorem_LoremBrick")
         
 
     def mod_complete(self):
