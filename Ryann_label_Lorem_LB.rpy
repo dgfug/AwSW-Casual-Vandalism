@@ -21,7 +21,7 @@ if HasBrick == True:
                    c "Yes, it does."
                    Lo "Oh, um... Thank you then."
                    $ HasBrick == False
-                   $ LoBrick == True
+                   $ LoremHasBrick == True
 
               "No.":
                    c "No not really."
