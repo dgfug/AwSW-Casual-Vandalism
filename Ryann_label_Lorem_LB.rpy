@@ -1,7 +1,7 @@
 
 label Ryann_Lorem_LoremBrick:
 
-if HasBrick = True and WindowSmashed = False:
+if HasBrick = True:
 
  Lo think "Wait, why do you have a brick?"
  menu:
