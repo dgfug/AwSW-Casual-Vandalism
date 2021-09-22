@@ -14,7 +14,7 @@ if HasBrick == True:
                m "I threw the brick I had through the window."
                play sound "fx/glassimpact2.ogg"
                show lorem think with dissolve
-               Lo "[Player name] I heard glass breaking are-"
+               Lo "[Player_name] I heard glass breaking are-"
                m "Lorem looked at the ground and saw no glass on our side of the now broken window."
                Lo "Wait... Did you do that?"
                c "Yeah..."
@@ -22,27 +22,27 @@ if HasBrick == True:
                c "I dont know... Just felt like it, I guess..."
                Lo "But why would you..."
                m "Lorem, at a loss for words, stared back and forward between me and the broken window in stunned bewilderment for a minute or two."
-               show Sebastion normal b flip at left with easeinleft
-               show Lorem releived at right
-               Sb "[Player name], there you are, where's Reza?"
+               show sebastion normal b flip at left with easeinleft
+               show lorem releived at right
+               Sb "[Player_name], there you are, where's Reza?"
                c "Uh... What do you mean?"
                Sb "We got a call about a human from this building."
                Sb "So, we assumed it was Reza, and ran here immedediately."
-               m " Bryce appeared from around the corrner and looked around confused."
-               show Bryce brow b flip at left behind sebastion
+               m " bryce appeared from around the corrner and looked around confused."
+               show bryce brow b flip at left behind sebastion
                with easeinleft
                Br "Where's Reza?"
-               Br "Also, [Player name], what are you doing here?"
+               Br "Also, [Player_name], what are you doing here?"
                c "Reza's not here."
                Br "But we got a call about a human who broke a window, and im assuming its that one."
                m "He guestured towards the building with the window I had smashed."
                m "I only then noticed a dragon on the other side who had a distraught look on their face."
                Br "But if Reza's not here, then who...?"
-               m "I... Uhh, I smashed the window..."
+               c "I... Uhh, I smashed the window..."
                Sb dissaproval b "Wait... Really?"
                Br "But why would you do that?"
                c "I dont really know..."
-               Br angry old b flip "Dammit [Player name]!"
+               Br angry old b flip "Dammit [Player_name]!"
                Br brow b flip "You know the situation with Reza and you know we dont havce the time to spare with false alarms loke this!"
                m " Bryce sighed"
                Br "You're lucky you have your diplomatic immunity and you're our only connection to Reza, or else you'd be arrested right now."
@@ -51,12 +51,12 @@ if HasBrick == True:
                Sb "Nothing for you to worry about."
                Br "Sebastion clear everything up here, ill head back to the station."
                Sb normal b "Got it Cheif."
-               Br "You two go back to what you whatever you were doing, and [Player name], you better not do anything stupid."
-               hide Bryce with easeoutleft
+               Br "You two go back to what you whatever you were doing, and [Player_name], you better not do anything stupid."
+               hide bryce with easeoutleft
 
                $ Rempy.pause (0.5)
 
-               hide Sebastion with easeoutright
+               hide dsebastion with easeoutright
 
                m "Bryce and Sebastion left the two of standing there, and I felt like I was a child who'd got caught doing something they shouldnt have."
                Lo sad "Uh... Let's just forget about that and get back to what we were doing..."
