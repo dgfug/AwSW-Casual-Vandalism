@@ -1,8 +1,10 @@
 
 label Ryann_Lorem_LoremBrick:
 
-Lo think "Wait, why do you have a brick?"
-menu:
+if HasBrick = True and WindowSmashed = False:
+
+ Lo think "Wait, why do you have a brick?"
+ menu:
     "I was going to smash the window":
          c "Iwas gonna smash this window with it."
          Lo releived "Seriously?"
@@ -35,4 +37,7 @@ menu:
          c "Alright"
          $ HasBrick == False
 
-jump lorem3searchmenu
+ jump lorem3searchmenu
+
+else:
+ pass
