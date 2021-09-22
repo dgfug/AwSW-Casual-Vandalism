@@ -19,9 +19,9 @@ if HasBrick == True:
               menu:
                    "Yes.":
                         c "Yes, it does."
-                             Lo "Oh, um... Thank you then."
-                             $ HasBrick = False
-                             $ LoremHasBrick = True
+                        Lo "Oh, um... Thank you then."
+                        $ HasBrick = False
+                        $ LoremHasBrick = True
 
                    "No.":
                         c "No not really."
