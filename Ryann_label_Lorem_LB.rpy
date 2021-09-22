@@ -36,8 +36,8 @@ if HasBrick == True:
               c "Alright."
               $ HasBrick = False
 
-      $ lorem3windows = True
-      jump lorem3searchmenu
+     $ lorem3windows = True
+     jump lorem3searchmenu
 
 else:
     pass
