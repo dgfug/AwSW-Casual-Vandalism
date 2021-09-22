@@ -23,7 +23,7 @@ if HasBrick == True:
                Lo "But why would you..."
                m "Lorem, at a loss for words, stared back and forward between me and the broken window in stunned bewilderment for a minute or two."
                show sebastian normal b flip at left with easeinleft
-               show lorem releived at right
+               show lorem reeileved at right
                Sb "[player_name], there you are, where's Reza?"
                c "Uh... What do you mean?"
                Sb "We got a call about a human from this building."
@@ -39,12 +39,12 @@ if HasBrick == True:
                m "I only then noticed a dragon on the other side who had a distraught look on their face."
                Br "But if Reza's not here, then who...?"
                c "I... Uhh, I smashed the window..."
-               Sb dissaproval b "Wait... Really?"
+               Sb disapproval b flip "Wait... Really?"
                Br "But why would you do that?"
                c "I dont really know..."
                Br angry old b flip "Dammit [player_name]!"
-               Br brow b flip "You know the situation with Reza and you know we dont havce the time to spare with false alarms loke this!"
-               m " Bryce sighed"
+               Br brow b flip "You know the situation with Reza and you know we dont havce the time to spare with false alarms like this!"
+               m "Bryce sighed."
                Br "You're lucky you have your diplomatic immunity and you're our only connection to Reza, or else you'd be arrested right now."
                Br "Dont think this is over, we're gonna talk about this later."
                Lo think "Wait, whats going on with Reza?"
@@ -52,6 +52,7 @@ if HasBrick == True:
                Br "Sebastian clear everything up here, ill head back to the station."
                Sb normal b "Got it Cheif."
                Br "You two go back to what you whatever you were doing, and [player_name], you better not do anything stupid."
+               show bryce brow b old
                hide bryce with easeoutleft
 
                $ Rempy.pause (0.5)
