@@ -22,8 +22,8 @@ if HasBrick == True:
                c "I dont know... Just felt like it, I guess..."
                Lo "But why would you..."
                m "Lorem, at a loss for words, stared back and forward between me and the broken window in stunned bewilderment for a minute or two."
-               show sebastian normal b flip at left with easeinleft
                show lorem relieved at right with dissolve
+               show sebastian normal b flip at left with easeinleft
                Sb "[player_name], there you are, where's Reza?"
                c "Uh... What do you mean?"
                Sb "We got a call about a human from this building."
@@ -51,11 +51,11 @@ if HasBrick == True:
                Sb "Nothing for you to worry about."
                Br "Sebastian, clear everything up here, ill head back to the station."
                Sb normal b flip "Got it Cheif."
-               Br "You two go back to what you whatever you were doing, and [player_name], you better not do anything stupid."
+               Br "You two go back to whatever you were doing, and [player_name], you better not do anything stupid."
                show bryce brow b old
                hide bryce with easeoutleft
 
-               $ Renpy.pause (0.5)
+               $ renpy.pause (0.5)
 
                hide sebastian with easeoutright
 
