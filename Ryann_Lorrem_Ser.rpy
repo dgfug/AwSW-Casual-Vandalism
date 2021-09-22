@@ -23,13 +23,13 @@ if HasBrick == True:
                Lo "But why would you..."
                m "Lorem, at a loss for words, stared back and forward between me and the broken window in stunned bewilderment for a minute or two."
                show lorem relieved at right with move
-               show sebastian normal b flip at left with easeinleft
+               show sebastian normal b flip at Position (xpos = 0.05) with easeinleft
                Sb "[player_name], there you are, where's Reza?"
                c "Uh... What do you mean?"
                Sb "We got a call about a human from this building."
                Sb "So, we assumed it was Reza, and ran here immedediately."
                m "Bryce appeared from around the corrner and looked around confused."
-               show bryce brow b flip at left behind sebastian
+               show bryce brow b flip at Position (xpos = 0.2) behind sebastian
                with easeinleft
                Br "Where's Reza?"
                Br "Also, [player_name], what are you doing here?"
