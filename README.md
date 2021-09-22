@@ -1,4 +1,4 @@
-# AWsW Casual Vandalism
+# AwSW Casual Vandalism
 
 This isnt supposed to be a proper AwSW mod, it was more me seeing if I was able to mod, so dont expect anything amazing.
 
