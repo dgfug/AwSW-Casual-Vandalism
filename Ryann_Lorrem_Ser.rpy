@@ -23,7 +23,7 @@ if HasBrick == True:
                Lo "But why would you..."
                m "Lorem, at a loss for words, stared back and forward between me and the broken window in stunned bewilderment for a minute or two."
                show sebastian normal b flip at left with easeinleft
-               show lorem reileved at right with disolve
+               show lorem relieved at right with dissolve
                Sb "[player_name], there you are, where's Reza?"
                c "Uh... What do you mean?"
                Sb "We got a call about a human from this building."
