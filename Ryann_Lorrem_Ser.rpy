@@ -23,13 +23,13 @@ if HasBrick == True:
                Lo "But why would you..."
                m "Lorem, at a loss for words, stared back and forward between me and the broken window in stunned bewilderment for a minute or two."
                show sebastian normal b flip at left with easeinleft
-               show lorem reeileved at right
+               show lorem reileved at right with disolve
                Sb "[player_name], there you are, where's Reza?"
                c "Uh... What do you mean?"
                Sb "We got a call about a human from this building."
                Sb "So, we assumed it was Reza, and ran here immedediately."
                m "Bryce appeared from around the corrner and looked around confused."
-               show bryce brow b flip at left behind sebastion
+               show bryce brow b flip at left behind sebastian
                with easeinleft
                Br "Where's Reza?"
                Br "Also, [player_name], what are you doing here?"
@@ -43,23 +43,23 @@ if HasBrick == True:
                Br "But why would you do that?"
                c "I dont really know..."
                Br angry old b flip "Dammit [player_name]!"
-               Br brow b flip "You know the situation with Reza and you know we dont havce the time to spare with false alarms like this!"
+               Br brow b flip "You know the situation with Reza and you know we dont have the time to spare with false alarms like this!"
                m "Bryce sighed."
                Br "You're lucky you have your diplomatic immunity and you're our only connection to Reza, or else you'd be arrested right now."
                Br "Dont think this is over, we're gonna talk about this later."
                Lo think "Wait, whats going on with Reza?"
                Sb "Nothing for you to worry about."
-               Br "Sebastian clear everything up here, ill head back to the station."
-               Sb normal b "Got it Cheif."
+               Br "Sebastian, clear everything up here, ill head back to the station."
+               Sb normal b flip "Got it Cheif."
                Br "You two go back to what you whatever you were doing, and [player_name], you better not do anything stupid."
                show bryce brow b old
                hide bryce with easeoutleft
 
-               $ Rempy.pause (0.5)
+               $ Renpy.pause (0.5)
 
-               hide dsebastion with easeoutright
+               hide sebastian with easeoutright
 
-               m "Bryce and Sebastion left the two of standing there, and I felt like I was a child who'd got caught doing something they shouldnt have."
+               m "Bryce and Sebastian left the two of standing there, and I felt like I was a child who'd got caught doing something they shouldnt have."
                Lo sad "Uh... Let's just forget about that and get back to what we were doing..."
                c "Yeah..."
                Lo "Also, did you actually find anything here?"
