@@ -8,6 +8,6 @@ There will be two options, picking one will change one of the later sceans and t
 If you picked the option that changes the route you should pick "Look inside the windows." and you will have another two options with diffrent dialoge.
 I was planning on adding certain characters commenting on your choises later, but thats not in this version.
 
-This needs Magmaling to work, which can be found here: https://gitlab.com/jakzie2/awsw-magmalink
+This needs Magmalink to work, which can be found here: https://gitlab.com/jakzie2/awsw-magmalink
 
 Also huge thanks to Jakzie for their help, they're the reason this actually works and isnt just error screen after error screen.
