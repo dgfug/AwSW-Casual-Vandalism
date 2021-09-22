@@ -6,7 +6,7 @@ if HasBrick = True and WindowSmashed = False:
  Lo think "Wait, why do you have a brick?"
  menu:
     "I was going to smash the window":
-         c "Iwas gonna smash this window with it."
+         c "I was gonna smash this window with it."
          Lo releived "Seriously?"
          c "No, I was joking."
          Lo normal "Oh, good. I thought you weren't for a second there."
