@@ -15,7 +15,7 @@ if HasBrick == True:
 
     "Its a gift for you.":
          Lo think "You got me a... brick?"
-         Lo " Does this have some kind of meaning for humans?"
+         Lo "Does this have some kind of meaning for humans?"
          menu:
               "Yes.":
                    c "Yes, it does."
@@ -33,7 +33,7 @@ if HasBrick == True:
          c "I dont really know, I just saw it so I picked it up."
          Lo "That's..."
          Lo "Well, im pretty sure you wont need it so you can just get rid of it."
-         c "Alright"
+         c "Alright."
          $ HasBrick == False
 
  $ lorem3windows = True
