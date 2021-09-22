@@ -4,12 +4,12 @@ scene np2x at Pan ((0, 0), (0, 360), 8.0) with dissolveslow
 
 m "While walking to the school area I noticed a loose brick on the ground along the path"
 menu:
-     "[Take the brick.]":
+     "[[Take the brick.]":
                 play sound "fx/rocks1.ogg"
                 m "I picked up the brick off the ground and stashed it under my clothes"
                 $ HasBrick = True
 
-     "[Leave the brick.]":
+     "[[Leave the brick.]":
                 "I decided to ignore it and continue walking"
                 $ HasBrick = False
 
