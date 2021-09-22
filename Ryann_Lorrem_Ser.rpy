@@ -2,7 +2,7 @@
 label Ryann_Lorem_Search:
 m "I looked at the window and took a moment to appreciate how unbroken it was."
 if HasBrick == True: 
- m "I suudenly remember about the brick I'd gotten earlier." 
+ m "I suddenly I remembered about the brick I'd gotten earlier." 
  menu:
      "[[Do nothing.]":
                m "Then I realised smashing a window with a brick wouldnt be my smartest idea."
@@ -22,7 +22,7 @@ if HasBrick == True:
                c "I dont know... Just felt like it, I guess..."
                Lo "But why would you..."
                m "Lorem, at a loss for words, stared back and forward between me and the broken window in stunned bewilderment for a minute or two."
-               show lorem relieved at right with dissolve
+               show lorem relieved at right with move
                show sebastian normal b flip at left with easeinleft
                Sb "[player_name], there you are, where's Reza?"
                c "Uh... What do you mean?"
