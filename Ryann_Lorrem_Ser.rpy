@@ -52,6 +52,8 @@ if HasBrick == True:
                Br "Sebastian, clear everything up here, ill head back to the station."
                Sb normal b flip "Got it Cheif."
                Br "You two go back to whatever you were doing, and [player_name], you better not do anything stupid."
+               $ renpy.pause (0.5)
+               
                show bryce brow b old
                hide bryce with easeoutleft
 
