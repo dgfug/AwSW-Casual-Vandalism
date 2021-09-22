@@ -1,8 +1,8 @@
 
 label Ryann_Lorem_Search:
-m "I looked at the window and took a moment to appreciate how unbroken it was"
+m "I looked at the window and took a moment to appreciate how unbroken it was."
 $ if HasBrick = True:
-    m "I suudenly remember about the brick i'd gotten earlier"
+m "I suudenly remember about the brick i'd gotten earlier."
 menu:
      "[[Do nothing.]":
                m "Then I realised smashing a window with a brick wouldnt be my smartest idea."
@@ -65,5 +65,5 @@ menu:
 
 jump Ryann_Lorem_Ser_end
 
-else m "I looked for a few more seconds before remembering what I was doing."
+$ else m "I looked for a few more seconds before remembering what I was doing."
 jump Ryann_Lorem_NormalWindow_end
