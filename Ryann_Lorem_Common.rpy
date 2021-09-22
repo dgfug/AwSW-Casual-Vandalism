@@ -6,5 +6,5 @@ $ HasBrick = False
 $ WindowSmashed = False
 # If Lorem has a brick
 # Was gonna have a line about Lorem saying he lost it at the store later in his date
-$ LoremBrick = False 
+$ LoremHasBrick = False 
 
