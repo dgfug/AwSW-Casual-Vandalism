@@ -1,8 +1,7 @@
 
 label Ryann_Lorem_Search:
 m "I looked at the window and took a moment to appreciate how unbroken it was."
-if HasBrick = True:
-m "I suudenly remember about the brick i'd gotten earlier."
+if HasBrick = True: m "I suudenly remember about the brick i'd gotten earlier." 
 menu:
      "[[Do nothing.]":
                m "Then I realised smashing a window with a brick wouldnt be my smartest idea."
