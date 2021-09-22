@@ -12,6 +12,16 @@ menu:
 
      "[[Leave the brick.]":
                 "I decided to ignore it and continue walking."
-                $ HasBrick = False
+                $ HasBrick = False 
+                
+scene black with fade
+
+$ renpy.pause (1.0)
+
+scene school at Pan ((0, 0), (0, 360), 8.0) with dissolveslow
+
+$ renpy.pause (6.5)
+
+show lorem normal with dissolve                
 
 jump Ryann_Lorem_GB_end
