@@ -30,7 +30,7 @@ class AWSWMod(Mod):
        ml.find_label("lorem3") \
         .search_menu("Look inside the windows.").branch() \
         .search_say("Did you find anything?") \
-        .hook_to("Ryann_Lorem_LoremBrick")
+        .hook_to("Ryann_Lorem_LoremBrick", condition="HasBrick == True")
         
 
     def mod_complete(self):
