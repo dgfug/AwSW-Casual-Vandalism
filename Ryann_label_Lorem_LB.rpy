@@ -10,29 +10,29 @@ if HasBrick == True:
          c "No, I was joking."
          Lo normal "Oh, good. I thought you weren't for a second there."
          Lo "Anyway lets keep looking."
-         m "I dropped the brick on the ground and wennt to help Lorem search."
+         m "I dropped the brick on the ground and went to help Lorem search."
          $ HasBrick == False
 
     "Its a gift for you.":
          Lo think "You got me a... brick?"
          Lo " Does this have some kind of meaning for humans?"
          menu:
-              "[[Yes.]":
+              "Yes.":
                    c "Yes, it does."
                    Lo "Oh, um... Thank you then."
                    $ HasBrick == False
                    $ LoremBrick == True
 
-              "[[No.]":
+              "No.":
                    c "No not really."
-                   lo "Uhm... Ok then..."
+                   Lo "Uhm... Ok then..."
                    c "(Why did I even take this in the first place?)"
                    $ HasBrick == False
 
     "I dont know.":
          c "I dont really know, I just saw it so I picked it up."
-         lo "That's..."
-         lo "Well, im pretty sure you wont need it so you can just get rid of it."
+         Lo "That's..."
+         Lo "Well, im pretty sure you wont need it so you can just get rid of it."
          c "Alright"
          $ HasBrick == False
 
