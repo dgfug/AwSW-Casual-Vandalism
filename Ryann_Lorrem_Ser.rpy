@@ -61,6 +61,7 @@ if HasBrick == True:
                m "Bryce and Sebastion left the two of standing there, and I felt like I was a child who'd got caught doing something they shouldnt have."
                Lo sad "Uh... Let's just forget about that and get back to what we were doing..."
                c "Yeah..."
+               Lo "Also, did you actually find anything here?"
 
 
  jump Ryann_Lorem_Ser_end
