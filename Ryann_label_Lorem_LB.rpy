@@ -2,7 +2,6 @@
 label Ryann_Lorem_LoremBrick:
 
 if HasBrick = True:
-
  Lo think "Wait, why do you have a brick?"
  menu:
     "I was going to smash the window":
