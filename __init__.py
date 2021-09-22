@@ -10,7 +10,7 @@ class AWSWMod(Mod):
        ml = modinfo.get_mods()["MagmaLink"].import_ml()
 
        ml.find_label("lorem3") \
-        .search_say("If this is the facility, then the place indicated is... the school. Or, rather, somewhere between the school and the administrative building.") \
+        .search_say("Let's go, then.") \
         .hook_to("Ryann_Lorem_GetBrick") \
         .search_say("Here we are. The X on the map is right between these two buildings, so it must be around here somewhere.") \
         .link_from("Ryann_Lorem_GB_end")
