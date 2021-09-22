@@ -1,7 +1,7 @@
 
 label Ryann_Lorem_Search:
 m "I looked at the window and took a moment to appreciate how unbroken it was"
-if HasBrick = True:
+$ if HasBrick = True:
     m "I suudenly remember about the brick i'd gotten earlier"
 menu:
      "[Do nothing.]":
@@ -11,7 +11,7 @@ menu:
      "[Smash the window.]":
                $ HasBrick = False
                $ WindowSmashed = True
-               m "I threw the brick I had through the window"
+               m "I threw the brick I had through the window."
                play sound "fx/glassimpact2.ogg"
                show lorem think with dissolve
                Lo "[Player name] I heard glass breaking are-"
@@ -28,7 +28,7 @@ menu:
                c "Uh... What do you mean?"
                Sb "We got a call about a human from this building."
                Sb "So, we assumed it was Reza, and ran here immedediately."
-               m " Bryce appeared from around the corrner and looked around confused"
+               m " Bryce appeared from around the corrner and looked around confused."
                show Bryce brow b flip at left behind sebastion
                with easeinleft
                Br "Where's Reza?"
@@ -45,7 +45,7 @@ menu:
                Br angry old b flip "Dammit [Player name]!"
                Br brow b flip "You know the situation with Reza and you know we dont havce the time to spare with false alarms loke this!"
                m " Bryce sighed"
-               Br "You're lucky you have your diplomatic immunity and you're our only connection to Reza, or else you@d be arrested right now."
+               Br "You're lucky you have your diplomatic immunity and you're our only connection to Reza, or else you'd be arrested right now."
                Br "Dont think this is over, we're gonna talk about this later."
                Lo think "Wait, whats going on with Reza?"
                Sb "Nothing for you to worry about."
