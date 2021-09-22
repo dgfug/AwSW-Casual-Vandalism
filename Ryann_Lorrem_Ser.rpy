@@ -4,11 +4,11 @@ m "I looked at the window and took a moment to appreciate how unbroken it was"
 $ if HasBrick = True:
     m "I suudenly remember about the brick i'd gotten earlier"
 menu:
-     "[Do nothing.]":
+     "[[Do nothing.]":
                m "Then I realised smashing a window with a brick wouldnt be my smartest idea."
                jump Ryann_Lorem_NormalWindow
 
-     "[Smash the window.]":
+     "[[Smash the window.]":
                $ HasBrick = False
                $ WindowSmashed = True
                m "I threw the brick I had through the window."
